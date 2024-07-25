@@ -1,5 +1,5 @@
 # Projeto de Conta Digital #
-Este é um projeto de conta digital feito para o Bootcamp Santander Back end Java, que simula um sistema bancário básico, permitindo operações como depósitos, saques, transferências e consultas de extratos. O projeto foi desenvolvido em Java e segue princípios de programação orientada a objetos.
+Este é um projeto de conta digital feito para o Bootcamp Santander Back end Java pela DIO, que simula um sistema bancário básico, permitindo operações como depósitos, saques, transferências e consultas de extratos. O projeto foi desenvolvido em Java e segue princípios de programação orientada a objetos.
 
 ## Funcionalidades ##
 Criação de Cliente: Permite criar clientes com nome e CPF.
