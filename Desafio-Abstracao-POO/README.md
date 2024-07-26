@@ -1,18 +1,18 @@
-## Getting Started
+# Desafio Aprendendo na Prática Programação Orientada a Objetos  #
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é uma aplicação Java que simula a gestão de um bootcamp de desenvolvimento. Ele demonstra o uso de classes e objetos para representar cursos, mentorias e desenvolvedores inscritos em um bootcamp.
 
-## Folder Structure
+## Descrição ## 
+O projeto inclui as seguintes funcionalidades:
 
-The workspace contains two folders by default, where:
+* Curso: Representa um curso com título, descrição e carga horária.
+* Mentoria: Representa uma mentoria com título, descrição e data.
+* Bootcamp: Agrupa conteúdos como cursos e mentorias e permite inscrição de desenvolvedores.
+* Dev: Representa um desenvolvedor que pode se inscrever em um bootcamp, progredir nos conteúdos e calcular a experiência (XP) total.
+## Estrutura do Projeto ##
+O projeto é organizado em classes que representam os principais conceitos do bootcamp:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* Curso: Classe que define um curso com título, descrição e carga horária.
+* Mentoria: Classe que define uma mentoria com título, descrição e data.
+* Bootcamp: Classe que agrega cursos e mentorias e permite inscrição de desenvolvedores.
+* Dev: Classe que representa um desenvolvedor, permitindo inscrição em bootcamps, progresso nos conteúdos e cálculo de XP.
