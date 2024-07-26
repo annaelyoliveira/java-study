@@ -1,4 +1,4 @@
-# Simulando Uma Conta Bancária Através Do Terminal/Console #
+# Desafio Simulando Uma Conta Bancária Através Do Terminal/Console #
 Este projeto é uma aplicação Java simples que simula a interação com um terminal bancário. Ele solicita ao usuário informações sobre a conta e imprime uma mensagem de confirmação com os detalhes da conta.
 
 ## Descrição ##
