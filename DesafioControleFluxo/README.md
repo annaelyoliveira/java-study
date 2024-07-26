@@ -1,18 +1,16 @@
-## Getting Started
+# Desafio Controle de Fluxo
+Este projeto é uma aplicação Java que demonstra o uso de exceções personalizadas e manipulação de entrada do usuário. O programa solicita dois parâmetros ao usuário e imprime uma contagem com base nesses parâmetros, enquanto valida se o segundo parâmetro é maior que o primeiro.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
+É um programa Java que:
+### Solicita Dados ao Usuário:
 
-## Folder Structure
+* O programa pede ao usuário para inserir dois números inteiros, chamados de "primeiro parâmetro" e "segundo parâmetro".
+### Valida os Parâmetros:
 
-The workspace contains two folders by default, where:
+* O programa verifica se o segundo parâmetro é maior que o primeiro.
+* Se o segundo parâmetro não for maior, uma exceção personalizada chamada ParametrosInvalidosException é lançada com uma mensagem informativa.
+### Contagem e Impressão:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* Se a validação for bem-sucedida, o programa calcula a diferença entre os dois parâmetros e imprime uma contagem de números, do 1 até a diferença.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
